@@ -56,6 +56,7 @@
 		B69AC69716620ECF002592EF /* RuntimePropertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimePropertyTests.m; sourceTree = "<group>"; };
 		B69AC6A116620FA0002592EF /* NSObject+addRuntimeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+addRuntimeProperty.h"; sourceTree = "<group>"; };
 		B69AC6A216620FA0002592EF /* NSObject+addRuntimeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+addRuntimeProperty.m"; sourceTree = "<group>"; };
+		B69AC6D216624312002592EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 		B69AC67316620ECF002592EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B69AC6D216624312002592EF /* README.md */,
 				B69AC67416620ECF002592EF /* RuntimeProperty-Info.plist */,
 				B69AC67516620ECF002592EF /* InfoPlist.strings */,
 				B69AC67816620ECF002592EF /* main.m */,
