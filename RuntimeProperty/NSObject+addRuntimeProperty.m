@@ -20,7 +20,7 @@
 
 - (id)getPropertyForKey:(char const * const)key
 {
-    NSAssert(key,@"KEY is not be nil.");
+    NSAssert(key,@"KEY must not be nil.");
     NSAssert(objc_getAssociatedObject(self, key)!=nil,@"there is no object for the given KEY.");
     return objc_getAssociatedObject(self, key);
 }
