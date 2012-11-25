@@ -34,7 +34,8 @@ Sets the association between any property for a specific key.
 Example
 -------
 
-_
+```objc
+require 'redcarpet'
 static char const * const _ORIGIN_KEY   = "origin";
 
 - (void)addProperty
@@ -49,5 +50,5 @@ static char const * const _ORIGIN_KEY   = "origin";
     if( [_helloString hasPropertyForKey:_ORIGIN_KEY] )
         NSLog(@"%@", [_helloString getPropertyForKey:_ORIGIN_KEY]);
 }
-_
+```
 
