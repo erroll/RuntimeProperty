@@ -1,10 +1,20 @@
 //
 //  NSObject+addRuntimeProperty.h
-//  AVL Powertrain World
+//  RuntimeProperty
 //
-//  Created by Erroll on 29.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Erroll on 25.11.12.
+//  Copyright 2012 Erroll Kappes. All rights reserved.
+//  Permission granted to do anything, commercial/non-commercial with this file apart from removing this disclaimer.
 //
+//  As a side note on using this code, you might consider giving some credit to me by
+//	1) crediting me inside the app's credits page
+//	2) or a tweet mentioning @errollslist
+//	3) A paypal donation to kappes.erroll@gmail.com
+//
+//  A note on redistribution
+//	While I'm ok with modifications to this source code,
+//	if you are re-publishing after editing, please retain the above copyright notices
+
 
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
