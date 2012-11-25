@@ -6,14 +6,14 @@ The aim of this project is to provide an easy to use and object-oriented way to 
 NSObject+addRuntimeProperty
 ---------------------------
 
-###- (void)setProperty:(id)property forKey:(char const * const)key withPolicy:(AssociantionPolicy)policy;
-/**
- Sets the association between any property for a specific key.
+*- (void)setProperty:(id)property forKey:(char const * const)key withPolicy:(AssociantionPolicy)policy;*
+
+Sets the association between any property for a specific key.
  
- @param property - the associated object
- @param key - the key to identify the associated object
- @param policy - the memory management policy
- */
+* @param property - the associated object
+* @param key - the key to identify the associated object
+* @param policy - the memory management policy
+
 
 
 /**
